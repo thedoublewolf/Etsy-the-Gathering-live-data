@@ -1,0 +1,523 @@
+body {
+	background-color: #F5F5F1;
+}
+
+.etsyHeader {
+	background-color: white;
+	margin: 0 auto;
+	width: 100%;
+	padding-bottom: 0px;
+}
+.etsyBody {
+	margin: 20px auto;
+	width: 980px;
+}
+hr {
+	margin: 0;
+	background-color: lightgrey;
+	height: 1px;
+	border: 0;
+}
+	ul {
+		list-style: none;
+	}
+	li {
+		display: inline-block;
+	}
+	a {
+		text-decoration: none;
+	}
+
+.header {
+	width: 980px;
+	margin: 0 auto;
+	background-color: white;
+	text-align: left;
+	padding-bottom: 15px;
+}
+	.etsyHeader {
+		display: inline-block;
+	}
+	.etsyTitle {
+		display: inline-block;
+		padding-top: 10px;
+	}
+	.etsy {
+		color: #ED6700;
+		font-family: times;
+		font-weight: 300;
+		font-size: 2.5em;
+	}
+	.gathering {
+		color: #3F3D4C;
+		font-family: times;
+		font-weight: bold;
+		font-size: 1.5em; 
+	}
+	.sell {
+		color: #5D91B8;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.sell:hover {
+		text-decoration: underline;
+	}
+	.register {
+		color: #5D91B8;
+		padding-right: 10px;
+	}
+	.register:hover {
+		text-decoration: underline;
+	}
+
+	.signIn {
+		background-color: white;
+		border: 1px solid #5D91B8;
+		color: #5D91B8;
+		border-radius: 2px;
+		padding: 8px;
+	}
+	.signIn:hover {
+		background-color: lighten(#5D91B8, 40%);
+	}
+	.cart {
+		background-color: white;
+		border: none;
+		border-left: 1px solid lightgrey;
+		color: grey;
+		font-size: 0.8em;
+		width: 50px;
+		position: relative;
+		top: 10px;
+		left: 10px;
+		opacity: 0.5;
+		ul {
+			padding-left: 0px;
+		}
+	}
+	.cart:hover {
+	opacity: 1;
+	}
+	.cartImage {
+		margin: 0px;
+		width: 25px;
+	}
+	.cartName {
+		margin: 0px;
+		color: black;
+	}
+	h2 {
+		display: inline-block;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.gathering {
+		display: inline-block;
+		margin-top: 5px;
+		margin-bottom: 0;
+	}
+	.search {
+		display: inline-block;
+		border: 1px solid lightgrey;
+		border-radius: 3px;
+		margin-bottom: 10px;
+		margin-left: 5px;
+	}
+	.searchBox {
+		border: none;
+		width: 250px;
+		padding-left: 10px;
+	}
+	.searchButton {
+		background-color: #46A7C7;
+		border: none;
+		color: white;
+		padding: 5px 10px 5px 10px;
+	}
+	.searchButton:hover {
+		background-color: lighten(#46A7C7, 5%);
+	}
+	.headerNav {
+		padding-left: 90px;
+	}
+	.subHeader {
+		width: 980px;
+		margin: auto;	
+		background-color: white;
+		nav {
+			text-align: left;
+		}
+	}
+	ul {
+			display: inline-block;
+			margin: 0px;
+	}
+	nav {
+		width: 100%;
+		font-size: 0.9em;
+		text-align: left;
+		ul {
+			margin-top: 0px;
+			width: 980px;
+			display: inline-block;
+			padding-left: 0;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			border-left: none;
+			border-right: none;
+			text-align: center;
+		}
+			li {
+			display: inline-block;
+			margin-left: 10px;
+			margin-right: 10px;
+			a {
+				color: grey;
+			}
+			}
+	}
+	sidebar {
+		width: 25%;
+		float: left;
+		padding-top: 4px;
+		p {
+			margin-left: 0px;
+			padding: 0;
+			color: #555555;
+			font-weight: bold;
+			font-size: 0.8em;
+		}
+		ul {
+			background-color: white;
+			border: 1px solid lightgrey;
+			width: 220px;
+			padding: 10px;
+			margin-top: 0px;
+			margin-left: 0px;
+			p {
+				margin: 0;
+				font-size: 0.85em;
+			}
+			a span {
+				color: #555555;
+				font-weight: bold;
+				}
+			a span:hover {
+				text-decoration: underline;
+			}
+			li {
+				display: block;
+				padding: 5px;
+				font-size: 0.8em;
+				span {
+					color: #555555;
+					font-weight: bold;
+				}
+				a {
+					padding: 10px;
+					color: #5D91B8;
+				}
+				a:hover {
+					text-decoration: underline;
+				}
+			}
+			hr {
+				width: 210px;
+				margin-top: 15px;
+				margin-bottom: 15px;
+			}
+			div {
+				width: 18px;
+				height: 18px;
+				border: 1px solid lightgrey;
+				border-radius: 2px;
+				display: inline-block;
+			}
+			.color1 {
+				background-color: #EB1C2F;
+			}
+			.color2 {
+				background-color: #F88200;
+			}
+			.color3 {
+				background-color: #F1CD00;
+			}
+			.color4 {
+				background-color: #42C200;
+			}
+			.color5 {
+				background-color: #3ECBF7;
+			}
+			.color6 {
+				background-color: #9D00FD;
+			}
+			.color7 {
+				background-color: #000000;
+			}
+			.color8 {
+				background-color: #FFFFFF;
+			}	
+		}
+		.searchPrice {
+			border: none;
+			width: 220px;
+			height: 40px;
+			div {
+				padding-left: 10px;
+				display: inline-block;
+				width: 65px;
+				height: 30px;
+				border: 1px solid lightgrey;
+			}
+			input {
+				padding-top: 5px;
+				padding-left: 5px;
+				border: none;
+				width: 50px;
+			}
+			button {
+				background-color: white;
+				border: 1px solid lightgrey;
+				height: 32px;
+				width: 32px;
+				border-radius: 2px;
+				position: relative;
+				padding: 0;
+				margin-left: 5px;
+				top: 11px;
+			}
+			button:before {
+				position: absolute;
+				bottom: 10px;
+				right: 10px;
+				content: "";
+				width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 5px 0 5px 9px;
+				border-color: transparent transparent transparent #5c5c5c;
+			}
+		}
+		hr {
+			width: 150px;
+			text-align: center;
+		}
+		.sidebarRef li a {
+			padding-left: 5px;
+		}
+	}
+
+.magicStuff {
+	float: right;
+	width: 75%;
+	border: 0px solid black;
+	margin-top: 15px;
+	ul {
+		float: left;
+		padding-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 5px;
+
+	}
+	li {
+		display: inline-block;
+		font-size: 0.9em;
+	}
+	.cat {
+		padding-left: 20px;
+		margin-bottom: 3px;
+		color: #555555;
+		font-weight: bold;
+		font-size: 0.8em;
+		a {
+			color: #5D91B8;
+			font-weight: 400;
+			font-size: 1.1em;
+		}
+		span {
+			color: grey;
+			font-weight: 400;
+			font-size: 1.1em;
+		}
+	}
+	.sort {
+		padding-left: 205px;
+	}
+	.magicItem {
+		width: 225px;
+		height: 225px;
+		border: 1px solid lightgrey;
+		border-radius: 2px;
+		display: inline-block;
+		margin: 5px;
+		overflow: hidden;
+		position: relative;
+		a {
+			color: black;
+		}
+		.heartHidden {
+		position: absolute;
+		background-color: white;
+		border-radius: 3px;
+		border: 1px solid lightgrey;
+		width: 20px;
+		height: 20px;
+		padding: 3px;
+		top: 3px;
+		left: 161px;
+		z-index: -1;
+		}
+		.heartShown {
+		position: absolute;
+		background-color: white;
+		border-radius: 3px;
+		border: 1px solid lightgrey;
+		width: 20px;
+		height: 20px;
+		padding: 3px;
+		top: 3px;
+		left: 161px;
+		}
+		.hamburgerHidden {
+		position: absolute;
+		background-color: white;
+		border-radius: 3px;
+		border: 1px solid lightgrey;
+		width: 20px;
+		height: 20px;
+		padding: 3px;
+		top: 3px;
+		right: 5px;
+		z-index: -1;
+		}
+		.hamburgerShown {
+		position: absolute;
+		background-color: white;
+		border-radius: 3px;
+		border: 1px solid lightgrey;
+		width: 20px;
+		height: 20px;
+		padding: 3px;
+		top: 3px;
+		right: 5px;
+		}
+		.magicpic {
+			width: 225px;
+	 	}
+		.title {
+			margin-top: 2px;
+			margin-left: 5px;
+			margin-right: 5px;
+			margin-bottom: 0px;
+			font-size: 0.7em;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+		.shop {
+			margin-top: 5px;
+			margin-left: 5px;
+			float: left;
+			font-size: 0.7em;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			color: #ACAAAC;
+		}
+		.price {
+			color: #8CC015;
+			margin-top: 5px;
+			margin-right: 5px;
+			float: right;
+			font-size: 0.7em;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+		}
+	}
+	.magicItem:hover {
+		box-shadow: 0px 1px 2px lightgrey; 
+	}
+}
+.footer {
+	float: right;
+	width: 75%;
+	p {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	ul {
+		vertical-align: top;
+		padding-left: 0px;
+		width: 200px;
+		display: inline-block;
+		li {
+			margin-bottom: 10px;
+		}
+		li a {
+			font-size: 0.85em;
+			color: #5D91B8;
+		}
+	}
+	.pageNav {
+		padding-bottom: 50px;
+		button {
+			font-size: 0.9em;
+			font-weight: bold;
+			color: grey;
+			background-color: white;
+			border: 1px solid lightgrey;
+			width: 40px;
+			height: 40px;
+			padding: 0;
+			margin-right: -6px;
+		}
+	}
+}
+.gideon {
+	width: 500px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	animation-duration: 2s;
+	animation-name: slidein;
+	}
+	@keyframes slidein {
+		from {
+			right: -500px
+		}
+		to {
+			right: 0;
+	}
+}
+.gideonHidden {
+	width: 500px;
+	position: fixed;
+	bottom: -500px;
+	right: 0px;
+	transition: bottom 2s;
+}
+.message {
+	width: 500px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	animation-duration: 2s;
+	animation-name: slidein;
+	}
+	@keyframes slidein {
+		from {
+			right: -500px
+		}
+		to {
+			right: 0;
+	}
+}
+.messageHidden {
+	width: 500px;
+	position: fixed;
+	bottom: -500px;
+	right: 0px;
+}
+
+

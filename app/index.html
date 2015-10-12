@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Etsy: the Gathering</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="etsyHeader">
+
+	<header class="header">
+		<div class="etsyTitle">
+			<h2 class="etsy">Etsy:</h2>
+			<p class="gathering">the Gathering</p>
+		</div>
+		<form class="search">
+			<input class="searchBox" type="search" placeholder="Magic the Gathering">
+			<button class="searchButton">Search</button>
+		</form>
+		<ul class="headerNav">
+			<li><a href="#" class="sell">Sell on Etsy</a></li>
+			<li><a href="#" class="register">Register</a></li>
+			<li><button class="signIn">Sign in</button></li>
+			<li><button class="cart">
+						<ul>
+							<li><img class="cartImage" src="images/cart.png"></li>
+							<li><p class="cartName">Cart</p></li>
+						</ul>
+					</button></li>
+		</ul>
+	</header>
+</div>
+<div class="etsyHeader">
+<hr>
+	<header class="subHeader">
+	<nav>
+		<ul class="navLinks">
+			<li><a href="#">Clothing & Accessories</a></li>
+			<li><a href="#">Jewelry</a></li>
+			<li><a href="#">Craft Supplies & Tools</a></li>
+			<li><a href="#">Weddings</a></li>
+			<li><a href="#">Entertainment</a></li>
+			<li><a href="#">Home & Living</a></li>
+			<li><a href="#">Kids & Baby</a></li>
+			<li><a href="#">Vintage</a></li>
+		</ul>
+	</nav>
+</header>
+<hr>
+
+</div>
+
+<div class="etsyBody">
+
+	<sidebar>
+		<p>Show results for:</p>
+		<ul class="sidebarNav">
+			<a href="#"><span><li>All Categories</li><span></a>
+				<li><a href="#">Home & Living</a></li>
+				<li><a href="#">Art & Collectibles</a></li>
+				<li><a href="#">Weddings</a></li>
+				<li><a href="#">Clothing</a></li>
+				<li><a href="#">Jewelry</a></li>
+				<li><a href="#">Paper & Party Supplies</a></li>
+				<li><a href="#">Accessories</a></li>
+				<li><a href="#">Craft Supplies & Tools</a></li>
+				<li><a href="#">Bags & Purses</a></li>
+				<li><a href="#">Bath & Beauty</a></li>
+				<li><a href="#">Shoes</a></li>
+				<li><a href="#">Books, Movies & Music</a></li>
+				<li><a href="#">Electronics & Accessories</a></li>
+				<li><a href="#">Toys & Games</a></li>
+				<li><a href="#">Pet Supplies</a></li>
+		</ul>
+		<p>Refine your search</p>
+		<ul class="sidebarRef">
+			<li><span>Item Type</span></li>
+				<li><input class="checkbubble" type="radio"><a href="#">All Items</a></li>
+				<li><input class="checkbubble" type="radio"><a href="#">Handmade</a></li>
+				<li><input class="checkbubble" type="radio"><a href="#">Vintage</a></li>
+			<li><hr></li>
+			<li><span>Price</span></li>
+			<div class="searchPrice">
+				<div>$<input type="search" placeholder="Low"></div> to
+				<div>$<input type="search" placeholder="High"></div>
+				<button class="priceUpdate"></button>
+			</div>
+			<li><hr></li>
+			<li><span>Filter by Color</span></li>
+			<li><div class="color1"></div>
+					<div class="color2"></div>
+					<div class="color3"></div>
+					<div class="color4"></div>
+					<div class="color5"></div>
+					<div class="color6"></div>
+					<div class="color7"></div>
+					<div class="color8"></div></li>
+			<li><hr></li>
+			<li><span>Ordering Options</span></li>
+				<li><input class="checkbox" type="checkbox"><a href="#">Accepts Etsy Gift Cards</a></li>
+				<li><input class="checkbox" type="checkbox"><a href="#">Customizable</a></li>
+			<li><hr></li>
+			<li><span>Shop Location</span></li>
+				<li><input class="checkbubble" type="radio"><a href="#">Accepts Etsy Gift Cards</a></li>
+				<li><input class="checkbubble" type="radio"><a href="#">Customizable</a></li>
+			<li><a href="#">Choose a custom location</a></li>
+			<li><hr></li>
+			<li><span>Ship To</span></li>
+				<li><select class="countrymenu">
+							<option>United States</option>
+							<option>Everywhere Else</option>					
+						</select></li>
+		</ul>
+	</sidebar>
+
+	<div class="magicStuff">
+		<div>
+			<ul>
+				<li class="cat"><a href="#">All Categories</a> > "Magic the Gathering" <span>(2487 Results)</span></li>
+				<li class="sort">Sort by: <select class="sortmenu">
+							<option>Relevancy</option>
+							<option>Price</option>					
+						</select>
+			</ul>
+		</div>
+		<script type="text/template" id="itemListing">
+			<div class="magicItem">
+				<div id="heartHam">
+					<a href="#"><img id="heart" class="heartHidden" src="images/heart.png"></a>
+					<a href="#"><img id="hamburger" class="hamburgerHidden" src="images/hamburger.png"></a>
+				</div>
+				<a href="<%= url %>">
+					<img class="magicpic" src="<%= Images[0].url_170x135 %>">
+					<p class="title"><%= title %></p>
+				</a>
+				<p class="shop"><%= Shop.shop_name %></p>
+				<p class="price">$<%= price + ' USD' %></p>
+			</div>
+		</script>
+	</div>
+
+	<div class="footer">
+		<p>Related to Magic the Gathering</p>
+		<div>
+			<ul>
+				<li><a href="#">magic the gathering deck box</a></li>
+				<li><a href="#">magic the gathering playmat</a></li>
+				<li><a href="#">magic the gathering box</a></li>
+				<li><a href="#">magic the gathering life counter</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">magic the gathering shirt</a></li>
+				<li><a href="#">magic the gathering proxy</a></li>
+				<li><a href="#">magic the gathering cards</a></li>
+				<li><a href="#">mtg</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">magic the gathering art</a></li>
+				<li><a href="#">deck box</a></li>
+				<li><a href="#">how to leave the game</a></li>
+				<li><a href="#">go outside!</a></li>
+			</ul>
+		</div>
+		<div class="pageNav">
+			<button><</button>
+			<button>1</button>
+			<button>2</button>
+			<button>3</button>
+			<button>4</button>
+			<button>5</button>
+			<button>6</button>
+			<button>7</button>
+			<button>8</button>
+			<button>...</button>
+			<button>60</button>
+			<button>></button>
+		</div>
+	</div>
+
+</div>
+
+<img id="gideon" class="gideon" src="images/EN_Gideon_PWCard_Champion_InlineB.png">
+<img id="message" class="message" src="images/message.png">
+
+<script src="js/vendor.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
