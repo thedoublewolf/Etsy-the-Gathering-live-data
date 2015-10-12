@@ -29,14 +29,13 @@
     });
   });
 
-  // On each item on mouseover, find the descendant and remove/add class
-  $('.magicItem').mouseover('.heartHam', function (event) {
+  $('#magicItem').mouseover('.heartHam', function (event) {
     console.log(event);
     $(this).find('#heart').removeClass('heartHidden').addClass('heartShown');
     $(this).find('#hamburger').removeClass('hamburgerHidden').addClass('hamburgerShown');
   });
-  // On each item on mouseout, find the descendant and add/remove class
-  $('.magicItem').mouseout('.heartHam', function (event) {
+
+  $('#magicItem').mouseout('.heartHam', function (event) {
     console.log(event);
     $(this).find('#heart').addClass('heartHidden').removeClass('heartShown');
     $(this).find('#hamburger').addClass('hamburgerHidden').removeClass('hamburgerShown');
